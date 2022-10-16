@@ -22,9 +22,9 @@ jobs:
       - name: install pip packages
         run: |
           python -m pip install 
-          requests
-          pip install zhdate
-          pip freeze > requirements.txt--upgrade pipz
+requests
+pip install zhdate
+pip freeze > requirements.txt--upgrade pipz
           pip3 install -r requirements.txt
       - name: weixin
         run: |
